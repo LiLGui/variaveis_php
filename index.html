@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atendimento em casa</title>
+</head>
+<body>
+    <div id="all">
+        <div class="white">
+            <a href="#">logo</a>
+        </div>
+        <h2>Atendimento em casa</h2>
+        
+        <header>
+            <h4>Preencha os dados abaixo atentamente para marcar a sua consulta!</h4>
+        </header>
+        <form action="request.php" action="consulta.php" method="POST">
+            <!--contato-->
+            <div class="contato">
+            
+                <input type="text" name="nome_user" id="nome_user" placeholder="Nome Completo" required><!--nome-->
+                <input type="text" name="idade_user" id="idade_user" placeholder="Digite sua idade" required><!--idade-->
+                <select name="sexo" id="sexo">
+                    <option value="sex" selected disabled>Selecione o sexo --</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <br><br>
+                <input type="email" name="email_user" id="email_user" placeholder="Digite seu email" required><!--email-->
+                <input type="password" name="senha_user" id="senha_user" placeholder="Escolha uma senha" required><!--senha-->
+                <br><br>
+                <input type="text" name="numero_user" id="numero_user" placeholder="Número para contato"><!--numero-->
+                <input type="text" name="cpf_user" id="cpf_user" placeholder="Informe seu CPF" required><!--CPF-->
+                <input type="text" name="cep_user" id="cep_user" placeholder="Informe seu CEP" required><!--CEP-->           
+            </div>
+            <!--fim contato-->
+                    <input type="submit" class="pxt" name="" id="" value="Próximo passo">
+        </form><a href="index.html"><input type="submit" class="redefinir" name="" id="" value="Refazer"></a>
+        <footer>
+            <div class="white1">
+            Imagem rodapé
+            </div>
+            <p>Todos os direitos reservados - 2021 -<a href="https://www.instagram.com/willtry.tar/" target="_blank"> @Rafael William</a></p>
+        </footer>
+    </div>
+    <script src="interation.js"></script>
+</body>
+</html>
