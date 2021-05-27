@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left, #102436, #206995);
+}
+fieldset {
+    padding: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    height: 90px;
+}
+h2.logo {
+    left: 50%;
+    top: 3.5%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+li {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+}
+ul {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+legend {
+    color: rgba(0, 0, 0, 0.8);
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+form {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 30%;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input[type="text"], input[type="email"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+}
+#submit {
+    margin: auto;
+    width: 80%;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(110, 131, 194);
+}#submit:hover {
+    margin: auto;
+    width: 80%;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(130, 141, 172);
+    transition: 0.5s;
+}

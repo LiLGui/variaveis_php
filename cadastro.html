@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo_cadastro.css">
+    <title>Apostas Online</title>
+</head>
+<body>
+
+    <section>
+        <nav class="menu">
+            <ul>
+                <li>Home</li>
+                <li>Cadastro</li>
+                <li>Notícias</li>
+                <li>Login</li>
+            </ul>
+            <br>
+        </nav>
+        <form action="request.php" method="POST">
+
+            <fieldset> <legend><strong></strong></legend>
+                <br>
+                <div class="box_input">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                </div>
+                <br>
+                <div class="box_input">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <br>
+                <div class="box_input">
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuário" required>
+                </div>
+                <br>
+                <input type="submit" name="submit" id="submit" value="Cadastrar">
+                <br><br>
+                <legend><strong></strong></legend></fieldset>
+        </form>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
